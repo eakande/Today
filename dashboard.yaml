@@ -1,0 +1,52 @@
+dashboard:
+  explainerfile: explainer.joblib
+  params:
+    title: Inflation Explainer Dasboard for Nigeria
+    name: null
+    description: "This dashboard shows the workings of a fitted\n            machine\
+      \ learning model, and explains its predictions."
+    simple: false
+    hide_header: false
+    header_hide_title: false
+    header_hide_selector: false
+    header_hide_download: false
+    hide_poweredby: false
+    block_selector_callbacks: false
+    pos_label: null
+    fluid: true
+    mode: dash
+    width: 1000
+    height: 800
+    bootstrap: https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css
+    external_stylesheets: null
+    url_base_pathname: null
+    responsive: true
+    logins: null
+    port: 8050
+    importances: true
+    model_summary: true
+    contributions: true
+    whatif: true
+    shap_dependence: true
+    shap_interaction: true
+    decision_trees: true
+    kwargs: {}
+    tabs:
+    - name: CustomModelTab
+      module: __main__
+      params: null
+    - name: CustomModelTab1
+      module: __main__
+      params: null
+    - name: CustomPredictionsTab
+      module: __main__
+      params: null
+    - name: CustomPredictionsTab2
+      module: __main__
+      params: null
+    - name: CustomPredictionsTab3
+      module: __main__
+      params: null
+    - name: CustomPredictionsTab4
+      module: __main__
+      params: null
